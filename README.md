@@ -74,23 +74,17 @@ Further details on their web application can be gleaned from an interview with t
 
 As the world of sales and marketing becomes more sophisticated, it has become harder to have your messaging stick out from the crowd. Those in roles where performance is predicated on statistics like number of replies and overall response rate need tools to increase their volume and improve the quality of their message.
 
-Clay's website markets their product to "book more meetings". Their product tackles the problems of data entry, semantic understanding, and scraping of unstructured data with ChatGPT and "Claygents". Solving these issues paired with the other features their product offers allows users to efficiently fill in CRMs and create effective personalized messaging.
+Clay's website markets their product to "book more meetings"<sup>6</sup>. Their product tackles the problems of data entry, semantic understanding, and scraping of unstructured data with ChatGPT and "Claygents". Solving these issues paired with the other features their product offers allows users to efficiently fill in CRMs and create effective personalized messaging.
 
 ## Results
 
 - What has been the business impact of this company so far?
 
-Based off of a Crunchbase profile, it looks like they have been profitable for sometime, and considering the size of the company, they likely make millions in annual revenue. ==They are featured on some lists of important companies==. The about section has a "clay in the news" spot that
+Based off of a Crunchbase profile, it looks like they have been profitable for sometime, and considering the size of the company, they likely make millions in annual revenue.
 
-Clay's website lists some of their customers on their site, which are other business in a variety of fields. On LinkedIn, Clay is most often referenced by those in sales who must do regular outreach, particularly those with titles like "Account Executive"(AE) or "Saled Development Representative"(SDR).
+Clay's website lists some of their customers on their site, which are other business in a variety of fields. On LinkedIn, Clay is most often referenced by those in sales who must do regular outreach, particularly those with titles like "Account Executive"(AE) or "Sales Development Representative"(SDR).
 
-- What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
-
-A SAAS company like this would be gauging their success based on ARR/MRR,# of users/subscribers.There is no public data on this available.
-
-- How is your company performing relative to competitors in the same field?
-
-There is no public data available on this, but it is clear the company continues to grow based off of employment numbers available on Linkedin.
+While any SAAS company would gauge their success based on ARR/MRR,# of users/subscribers, there is no publicly available data on their success. Clay's website features a section with accolades and other positive messaging from their customers, but this subjective data is not easily compared to that of their peers, who are likely also not publicly accessible companies. One might be able to determine this based off of employee count (~50)<sup>7</sup>, LinkedIn follower count (~8k), or some other metric.
 
 ## Recommendations
 
@@ -117,7 +111,5 @@ Allowing individuals ot easily get recruitor info would allow them to more easil
 3.[Funding Information](https://www.crunchbase.com/organization/clay-953f)  
 4.[Interview with Kareem Amin](https://refactoring.fm/p/clay)  
 5.[Clay's Youtube Channel](https://www.youtube.com/@clay-prospecting)  
-6.[Clay's Website](https://www.clay.com/)
-
-With its customer base largely those who prospect or are in sales, their tools allow users to easily aggregate unstructured data hidden across the web. Traditionally, this process is very labor intensive, requiring users to search the web for each data point and then
-validate it by hand.
+6.[Clay's Website](https://www.clay.com/)  
+7. [Clay's LinkedIn Profile](https://www.linkedin.com/company/clay-hq/)
