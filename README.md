@@ -78,9 +78,7 @@ Clay's website markets their product to "book more meetings"<sup>6</sup>. Their 
 
 ## Results
 
-- What has been the business impact of this company so far?
-
-Based off of a Crunchbase profile, it looks like they have been profitable for sometime, and considering the size of the company, they likely make millions in annual revenue.
+Based off of a Crunchbase profile, it looks like they have been profitable for some time<sup>3</sup>, and considering the size of the company, they likely make millions in annual revenue.
 
 Clay's website lists some of their customers on their site, which are other business in a variety of fields. On LinkedIn, Clay is most often referenced by those in sales who must do regular outreach, particularly those with titles like "Account Executive"(AE) or "Sales Development Representative"(SDR).
 
@@ -88,21 +86,9 @@ While any SAAS company would gauge their success based on ARR/MRR,# of users/sub
 
 ## Recommendations
 
-- If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
+I personally want to use this tool to do email outreach to get a job by emailing recruiters. As an example, on Clay's Youtube channel, they demonstrate established CRM automations for finding recruiter emails, open job listings, and industry focuses<sup>5</sup>. These same work flows can be a valuable tool to automate some job search functions.
 
-I personally want to use this tool to do email outreach to get a job by emailing recruitors. Currently, all of their subscriptions are fairly expensive starting at $150/month. This might not be a good value for someone that is not using this to generate new business.
-
-- Why do you think that offering this product or service would benefit the company?
-
-Having a lower tier would allow them to service a new audience of individuals. Considering they already have "playbooks" for CRM automations that could get data valuable for an individual like myself who m ay want to talk to recruitors, I could see this product being of value to others.
-
-- What technologies would this additional product or service utilize?
-
-It would not require any new technologies, but there could be new prompts that enable new workflows that woud be valuable to this new userbase. As an example, on Clay's youtube channel, they show how to scrape for companies that have open positions and can allow users to get recruitor emails.
-
-- Why are these technologies appropriate for your solution?
-
-Allowing individuals ot easily get recruitor info would allow them to more easily get in touch with recruitors and get their emails.
+In order to capture this new market, Clay may have to update their product to have a new pricing tier as all of their subscriptions are fairly expensive starting at $149/month, and job seekers may not have that kind of capital to spare. The high cost might not be worthwhile for someone who is not using Clay to generate new business or reestablish the income that a full time job provides. Having a lower price tier would allow Clay to service this new category of customers, and further adjustments like limiting more costly components of their product could be used to target this new market.
 
 ## Works Cited
 
@@ -112,4 +98,4 @@ Allowing individuals ot easily get recruitor info would allow them to more easil
 4.[Interview with Kareem Amin](https://refactoring.fm/p/clay)  
 5.[Clay's Youtube Channel](https://www.youtube.com/@clay-prospecting)  
 6.[Clay's Website](https://www.clay.com/)  
-7. [Clay's LinkedIn Profile](https://www.linkedin.com/company/clay-hq/)
+7.[Clay's LinkedIn Profile](https://www.linkedin.com/company/clay-hq/)
