@@ -1,10 +1,33 @@
-# Module 1 Challenge: Clay.com Case Study
+## <center>Module 1 Challenge</center>
+
+# <center>Clay.com Case Study</center>
 
 ## Introduction
 
 Clay is a Brooklyn based SAAS company that uses the power of AI to help build out CRMs and send personalized outreach. Clay has seed funding from boldstart ventures and 2 other investors, but other funding information is not publicly available. With customers in pricing tiers starting at $149, it can be assumed they have some amount of revenue.
 
 While companies that aggregate data have existed for quite some time, the integration of AI and particularly AI agents has largely impacted this space. With AI transforming the level of effort, skill, and time required to complete tasks, Clay has deeply integrated it into its product offering to great effect.
+
+## Landscape
+
+- What field is the company in?
+
+The company focuses on providing outbound marketing tools for B2B clients.
+
+- What have been the major trends and innovations of this field over the last 5&ndash;10 years?
+
+Adding programatic elements to outbound marketing has consistently always been developing. From personal experience, email "drip" softwares that have used programatic messaging have been around for a while. With more data providers and scrapers out there, there has been greater ability to find data to add into CRM systems. This data has also been able to be utilized for personalized outreach in more rudimetary ways.
+
+- What are the other major companies in this field?
+
+Luna Ai here: https://luna.ai/email-personalization-platform/?utm_source=search&utm_medium=cpc&utm_campaign=ai_campaign_2023&gclid=CjwKCAiAjrarBhAWEiwA2qWdCKiNYhbd9aIh7TBJLvphLvlJE5PlOLIycnUwCjR_gN0mTeHoBZpu_RoCKN0QAvD_BwE looks to be a popular company
+
+Salesforce is heavily integrating AI into their CRM
+
+Klaviyo.com -enterprise marketing automation
+
+customer.io
+There are truly hundreds, if not thousands of companies in this space, so it is large and saturated.
 
 ## Background
 
@@ -35,60 +58,31 @@ As a lead generation and marketing product, Clay aims to simplify the task of pr
 
 ## Methodology
 
-Clay's product combines web scraping and AI to allow users to both find contacts and build personalized generative outreach. From the website: "build leads, enrich leads, use AI to write emails"<sup>6</sup>. Their features allow customers to fill in their CRMs and create personalized outreach at scale.
+Clay's product combines web scraping and AI to "build leads, enrich leads, use AI to write emails"<sup>6</sup>. Clay aggregates information from 50+ data sources, 10 "built in sources", and 150 "providers"<sup>6</sup>.
+
+From their Youtube channel it is clear that you can add your own OpenAPI API key, implying the usage of OpenAI products. OpenAI's ChatGPT solves the problem of hand writing messages to the user's prospects at scale. With ChatGPT, Clay's products can generate coherent messages magnitudes faster than a human, increasing the productivity and outreach that user would otherwise create.
+
+Clay's "Claygents" ease the work of finding the unstructured data that is not typically held by competitors' data aggregators. Common examples of this unstructured data can be news articles from Google, blog posts on their website, and more. Where a human would otherwise have to look for this information and fill it in by hand to increase message relevancy, these Claygents can instead do the work of finding this information for the user, increasing the productivity and relevancy of the messages. This in turn reduces the time users need to spend doing research, increasing their productivity and even the success of their messaging like open or response rates.
+
+Beyond their core technologies, Clay allows the CRM mappings of their customers to be made public, which further templatizes the work their customers might do<sup>4</sup>. This further increases the efficiency of their product as users may not need to further specify the type of information they may need to personalize messages.
+
+Further details on their web application can be gleaned from an interview with their engineering team in it they say:
+
+> "We built our own tech for rate-limiting, timeouts, and caching. We use Redis as a dedicated database for real-time interactions, and store this information later on to Postgres." ... "Integrations are implemented as independent packages and run as isolated lambda functions. This allows a separate customer engineering team to add and change integrations even if they have less experience and at a faster pace, without risking a bug that affects the whole system."<sup>4</sup>
 
 ## Analysis
 
-- Who is the company's intended customer? Is there any information about the market size of this set of customers?
+As the world of sales and marketing becomes more sophisticated, it has become harder to have your messaging stick out from the crowd. Those in roles where performance is predicated on statistics like number of replies and overall response rate need tools to increase their volume and improve the quality of their message.
 
-The company website says their product is used to "book more meetings". On their website, they list their customers which appear to be other businesses. Basically for outbound marketing.
-
-- What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
-
-They do really well at integrating "unstructured data". - https://refactoring.fm/p/clay
-
-"What is different about Clay is that such mappings are public, so other people can reuse them and no one has to write the same scraper twice." - https://refactoring.fm/p/clay
-
-It can be very time consuming to get good data to put into your CRM. When you are doing very large campaigns and volume matters, you will want to cast a wide net. Getting high response numbers usually can require really accurate personalization. Clay's AI agents or "Claygents" allow the AI to find relevant recent news about the company and individual news to seem authentic and increase this response rate.
-They get information from 50+ data sources and 10 "built in sources", 150 " providers". You can then update your CRM.
-
-- Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing&mdash;you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
-
-All of their data providers are either integrated via AI search or via APIs from the associated companies. The AI technology for researching may come from OpenAI, but it may also be developed in house, but this is inconclusive.
-
-## Landscape
-
-- What field is the company in?
-
-The company focuses on providing outbound marketing tools for B2B clients.
-
-- What have been the major trends and innovations of this field over the last 5&ndash;10 years?
-
-Adding programatic elements to outbound marketing has consistently always been developing. From personal experience, email "drip" softwares that have used programatic messaging have been around for a while. With more data providers and scrapers out there, there has been greater ability to find data to add into CRM systems. This data has also been able to be utilized for personalized outreach in more rudimetary ways.
-
-- What are the other major companies in this field?
-
-Luna Ai here: https://luna.ai/email-personalization-platform/?utm_source=search&utm_medium=cpc&utm_campaign=ai_campaign_2023&gclid=CjwKCAiAjrarBhAWEiwA2qWdCKiNYhbd9aIh7TBJLvphLvlJE5PlOLIycnUwCjR_gN0mTeHoBZpu_RoCKN0QAvD_BwE looks to be a popular company
-
-Salesforce is heavily integrating AI into their CRM
-
-Klaviyo.com -enterprise marketing automation
-
-customer.io
-There are truly hundreds, if not thousands of companies in this space, so it is large and saturated.
-
-## Methodology:
-
-Describe the methods used to collect data and analyze the information.
-Explain why specific methodologies were chosen and their relevance to the case study.
-
-Clay integrates both ChatGPT and "Claygents"<sup>6</sup> into their product which allows for hyper-personalized outreach. While the structured data like names and emails is easy to push into any messaging, personalization at scale is hard. ChatGPT solves the problem of hand writing each message, while their "Claygents" ease the work of finding unstructured data that improves relevance. Common examples of this unstructured data can be news articles from Google, blog posts on their website, and more.
+Clay's website markets their product to "book more meetings". Their product tackles the problems of data entry, semantic understanding, and scraping of unstructured data with ChatGPT and "Claygents". Solving these issues paired with the other features their product offers allows users to efficiently fill in CRMs and create effective personalized messaging.
 
 ## Results
 
 - What has been the business impact of this company so far?
 
 Based off of a Crunchbase profile, it looks like they have been profitable for sometime, and considering the size of the company, they likely make millions in annual revenue. ==They are featured on some lists of important companies==. The about section has a "clay in the news" spot that
+
+Clay's website lists some of their customers on their site, which are other business in a variety of fields. On LinkedIn, Clay is most often referenced by those in sales who must do regular outreach, particularly those with titles like "Account Executive"(AE) or "Saled Development Representative"(SDR).
 
 - What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
 
@@ -115,8 +109,6 @@ It would not require any new technologies, but there could be new prompts that e
 - Why are these technologies appropriate for your solution?
 
 Allowing individuals ot easily get recruitor info would allow them to more easily get in touch with recruitors and get their emails.
-
-"We built our own tech for rate-limiting, timeouts, and caching. We use Redis as a dedicated database for real-time interactions, and store this information later on to Postgres." , "Integrations are implemented as independent packages and run as isolated lambda functions. This allows a separate customer engineering team to add and change integrations even if they have less experience and at a faster pace, without risking a bug that affects the whole system."- https://refactoring.fm/p/clay
 
 ## Works Cited
 
